@@ -1,0 +1,32 @@
+{
+  "name": "housecoffee_ui_component_library",
+  "version": "0.0.1",
+  "description": "housecoffee_ui_component_library",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": ["dist"],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meowen0228/HouseCoffee_UI_Component_Library.git"
+  },
+  "author": "meowen0228",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meowen0228/HouseCoffee_UI_Component_Library/issues"
+  },
+  "homepage": "https://github.com/meowen0228/HouseCoffee_UI_Component_Library#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.2",
+    "react": "^18.0.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.2.0",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.1"
+  }
+}
