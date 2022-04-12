@@ -2,10 +2,9 @@
   "name": "housecoffee_ui_component_library",
   "version": "0.0.1",
   "description": "housecoffee_ui_component_library",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "files": ["dist"],
+
   "scripts": {
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -28,5 +27,11 @@
     "@rollup/plugin-typescript": "^8.3.1",
     "rollup": "^2.70.1",
     "rollup-plugin-dts": "^4.2.1"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.js"
 }

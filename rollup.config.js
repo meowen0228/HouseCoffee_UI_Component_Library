@@ -3,7 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
 
-const packagejson = require("./package.json");
+const packageJson = require("./package.json");
 
 export default [
     {
@@ -15,7 +15,7 @@ export default [
                 sourcemap: true,
             },
             {
-                file: packageJson.madule,
+                file: packageJson.module,
                 format: "esm",
                 sourcemap: true,
             },
@@ -23,7 +23,7 @@ export default [
         plugins: [
             resolve(),
             commonjs(),
-            typescript({ tscinfig: "./tsconfig.json" }),
+            typescript({ tsconfig: "./tsconfig.json" }),
         ],
     },
     {
