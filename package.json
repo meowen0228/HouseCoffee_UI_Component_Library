@@ -1,5 +1,5 @@
 {
-  "name": "housecoffee_ui_component_library",
+  "name": "@team3/housecoffee_ui_component_library",
   "version": "0.0.1",
   "description": "housecoffee_ui_component_library",
 
@@ -33,5 +33,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.js"
+  "types": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/meowen0228"
+  }
 }
