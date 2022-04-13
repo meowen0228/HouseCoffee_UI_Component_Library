@@ -1,3 +1,30 @@
-button {
-    font-size: 60px;
+.light-button {
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 24px;
+  color: #4C3410;
+  font-size: 1rem;
+  border: 2px solid #4C3410;
+  border-radius: 10px;
+  background: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
+
+.light-button:hover {
+  color: white;
+  background: #4C3410;
+}
+
+.dark-button {
+  color: red;
+}
+/*# sourceMappingURL=Button.css.map */

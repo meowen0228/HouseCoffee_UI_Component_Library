@@ -3,10 +3,11 @@ import "./Button.css";
 
 interface ButtonProps {
     label: string;
+    className: string;
 }
 
 const Button = (props: ButtonProps) => {
-    return <button>{props.label}</button>;
+    return <button className={props.className}>{props.label}</button>;
 }
 
 export default Button;
