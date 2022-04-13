@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "housecoffee_ui_component_library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,15 +17,32 @@
   },
   "homepage": "https://github.com/meowen0228/HouseCoffee_UI_Component_Library#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@testing-library/react": "^13.0.1",
+    "@types/jest": "^27.4.1",
     "@types/react": "^18.0.2",
+    "babel-jest": "^27.5.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
     "react": "^18.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^21.0.3",
     "@rollup/plugin-node-resolve": "^13.2.0",
     "@rollup/plugin-typescript": "^8.3.1",
+    "postcss": "^8.4.12",
+    "react-dom": "^18.0.0",
     "rollup": "^2.70.1",
     "rollup-plugin-dts": "^4.2.1"
   },
