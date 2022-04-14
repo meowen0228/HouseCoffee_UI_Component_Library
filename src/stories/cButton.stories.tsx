@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { countButton, countButton2} from './Button';
 
 export default {
-  title: 'Example/Button',
+  title: 'Example/cButton',
   component: countButton,
 };
 
